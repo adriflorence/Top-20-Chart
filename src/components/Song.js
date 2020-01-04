@@ -3,8 +3,8 @@ import React from 'react';
 const Song = (props) => {
     return(
         <div>
-            <section> place </section>
-            <section> title </section>
+            <section> {props.title} </section>
+            <section> {props.place} </section>
             <section> singer </section>
         </div>
     )

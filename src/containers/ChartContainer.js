@@ -9,10 +9,16 @@ class ChartContainer extends Component {
             }
         }
 
+        componentDidMount(){
+            fetch('http://localhost:3001')
+            .then(response => response.json())
+            .then(songs => this.setState({songs}));
+        }
+
         render(){
             return(
                 <React.Fragment>
-                    <SongList/>
+                    <SongList songs={this.state.songs}/>
                 </React.Fragment>
             )
         }
