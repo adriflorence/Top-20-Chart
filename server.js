@@ -16,4 +16,4 @@ app.get('/', function (req, res) {
 
 app.listen(3001, function () {
     console.log('App is running');
-})
+});

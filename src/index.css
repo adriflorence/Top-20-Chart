@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.song-box {
+  background-color: #170d67;
+  padding: 15px;
+  margin: 10px 0;
+  display: flex;
+}
+
+.song-box:hover {
+  background-color: #474747;
+}
+
+.song-box img, .place {
+  margin-right: 20px;
+}
+
+.place {
+  width: 40px;
+  font-size: 2em;
+  text-align: right;
+}
+
+.info {
+  color: #7A7A7A;
+  text-align: left;
+}
+
+.info h2 {
+  margin: 0.1em 0;
+  color: #EDEDED;
+}
+
+.artist {
+  color: #318E96;
+}
+
+.image {
+  position: relative;
+}
+
+.genre {
+  font-size: small;
+  color: white;
+  margin-top: 2em;
+}
+
+.play-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.play-button-image {
+  background: url('play.png');
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+
+}
+
+#footer {
+  padding-top: 20px;
+  border-top: 1px solid #353535;
+  background-color: black;
+  height: 60px;
+  text-align: center;
+}
